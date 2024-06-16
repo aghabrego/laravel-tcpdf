@@ -1,5 +1,5 @@
 # Changelog
 
-## 0.1.9 - 2024-06-08
+## 0.1.10 - 2024-06-15
 
-- Fix: Upgrade ```pelago/emogrifier```
+- Upgrade dependencies.

@@ -1,14 +1,8 @@
 {
   "name": "weirdo/tcpdf-laravel",
-  "description": "tcpdf support for Laravel 5",
+  "description": "tcpdf support for Laravel",
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://gitlab+deploy-token-4311646:gldt-uLN4_vskmKpUoGVYj1qG@gitlab.com/grupoprodecasa/helper.git"
-    }
-  ],
   "license": "MIT",
   "keywords": [
     "laravel",
@@ -28,7 +22,7 @@
     "setasign/fpdi": "^2.0",
     "symfony/var-dumper": "^6.1.3",
     "org_heigl/ghostscript": "2.3.2",
-    "weirdo/helper": "^1.0.0",
+    "weirdo/helper": "^1.0",
     "pelago/emogrifier": "^7.2.0"
   },
   "require-dev": {
