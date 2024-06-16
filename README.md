@@ -4,7 +4,7 @@ Un simple proveedor de servicios [Laravel](http://www.laravel.com) con alguna co
 
 ## Instalación en un proyecto Laravel
 
-Ver [INSTALACIÓN](https://gitlab.com/grupoprodecasa/tcpdf-laravel/-/blob/master/INSTALLATION.md)
+Ver [INSTALACIÓN](INSTALLATION.md)
 
 ## Caracteristicas
 
@@ -13,9 +13,6 @@ Ver [INSTALACIÓN](https://gitlab.com/grupoprodecasa/tcpdf-laravel/-/blob/master
 
 ## Como utilizarlo
 
-- `git clone git@gitlab.com:grupoprodecasa/tcpdf-laravel.git`
-- `cd tcpdf-laravel`
-- `composer install`
-- `./vendor/bin/phpunit`
+- `composer require weirdo/tcpdf-laravel`
 
-Ver [LICENSE](https://gitlab.com/grupoprodecasa/tcpdf-laravel/-/blob/master/LICENSE) para mas detalles.
+Ver [LICENSE](LICENSE) para mas detalles.
