@@ -122,6 +122,14 @@ class TCPDF
         throw new \RuntimeException(sprintf('the method %s does not exists in TCPDF', $method));
     }
 
+    /**
+     * @return \Weirdo\TCPDF\TCPDFHelper|\Weirdo\TCPDF\FpdiTCPDFHelper
+     */
+    public function getClassPDF()
+    {
+        return $this->tcpdf;
+    }
+
     public function setHeaderCallback($headerCallback)
     {
         $this->tcpdf->setHeaderCallback($headerCallback);

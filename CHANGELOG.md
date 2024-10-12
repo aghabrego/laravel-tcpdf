@@ -1,5 +1,5 @@
 # Changelog
 
-## 0.1.11 - 2024-09-10
+## 0.1.12 - 2024-10-12
 
-- Upgrade dependencies.
+- Agregando método para obtener la clase utilizada.
