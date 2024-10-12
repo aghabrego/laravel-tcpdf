@@ -1,5 +1,5 @@
 # Changelog
 
-## 0.1.12 - 2024-10-12
+## 0.1.13 - 2024-10-12
 
-- Agregando método para obtener la clase utilizada.
+- Correcting version.
