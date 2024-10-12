@@ -60,7 +60,7 @@ class ServiceProvider extends LaravelServiceProvider
     {
         $configPath = dirname(__FILE__) . '/../../config/tcpdf.php';
         $this->mergeConfigFrom($configPath, 'tcpdf');
-        $this->app->singleton('tcpdf', function ($app) {
+        $this->app->singleton('TCPDF', function ($app) {
             return new TCPDF(
                 Config::get('tcpdf.page_orientation', 'P'),
                 Config::get('tcpdf.page_units', 'mm'),

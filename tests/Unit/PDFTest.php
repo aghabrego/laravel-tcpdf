@@ -19,7 +19,6 @@ class PDFTest extends TestCase
         $pdf = new TCPDF();
         $pdf->setPrintHeader(false);
         $pdf->setPrintFooter(true);
-        dd($pdf);
         $pdf->setMargins(14, 10, 14);
         $pdf->SetAutoPageBreak(true, 10);
         $pdf->AddPage();

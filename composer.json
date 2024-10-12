@@ -42,10 +42,7 @@
     "laravel": {
       "providers": [
         "Weirdo\\TCPDF\\ServiceProvider"
-      ],
-      "aliases": {
-        "TCPDF": "Weirdo\\TCPDF\\Facades\\TcpdfFacade"
-      }
+      ]
     }
   }
 }
