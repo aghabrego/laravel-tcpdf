@@ -40,6 +40,11 @@ class FpdiTCPDFHelper extends Fpdi
         $this->pdfMerge = new PDFMerger($orientation, $unit, $format, $unicode, $encoding, $diskcache, $pdfa);
     }
 
+    public function SetConfig()
+    {
+        //
+    }
+
     public function Header()
     {
         if ($this->headerCallback != null && is_callable($this->headerCallback)) {

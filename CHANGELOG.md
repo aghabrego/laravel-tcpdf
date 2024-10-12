@@ -1,5 +1,5 @@
 # Changelog
 
-## 0.1.13 - 2024-10-12
+## 0.1.14 - 2024-10-12
 
-- Correcting version.
+- Fix:definiendo el método SetConfig.
